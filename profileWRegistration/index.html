@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>philpolo.io</title>
+  </head>
+
+  <body>
+    <!-- ************** start here -->
+
+    <!-- ************** nav start  -->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <!--navbar-dark-->
+      <div class="container">
+        <a href="index.html" class="navbar-brand">philpolo.io</a>
+        <button class="navbar-toggler bg-primary" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#explore-head-section" class="nav-link text-white">More About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/PhilatPlay?tab=repositories" class="nav-link text-white">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#share-head-section" class="nav-link text-white" data-toggle="modal"
+                data-target="#contactModal">Register 4 Updates</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ************** nav end  -->
+
+    <!-- ************** home start  -->
+
+    <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <div class="row">
+            <div class="col-lg-8 d-lg-block">
+              <p class="text-white intro">
+                Hi, I'm Phil... A fullstack developer.
+              </p>
+            </div>
+            <div class="col-lg-4">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </header>
+
+    <!-- ************** home end  -->
+    <!-- ************** big icons start -->
+
+    <!-- <section id="home-icons" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cog fa-3x mb-2"></i>
+            <h3>Turning Gears</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, assumenda.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cloud fa-3x mb-2"></i>
+            <h3>Send Data</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, assumenda.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cart-plus fa-3x mb-2"></i>
+            <h3>Making Money</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, assumenda.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!--************** explore icons end  -->
+    <!-- ************** explore section start  -->
+
+    <section id="explore-head-section" class=" bg-secondary p-0 pt-5">
+      <div class="container mt-2">
+        <div class="row">
+          <div id="imgDiv" class="col-md-6">
+            <img src="img/meNow4.jpg" alt="The man" class="img-fluid mb-3 rounded-circle">
+          </div>
+          <div class="col-md-6 pt-6">
+            <h3 class="mt-3">Who am I?</h3>
+            <p> Hi, Im Phil... A full stack developer, a lover of the outdoors and traveling and roaming abroad
+              enthusiast.</p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                My prefered languages are Java and JavaScript; I have been a hobbiest and interested in software
+                engineering for quite a few years.
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                I am both a MERN and MEAN stack developer and enjoy working with both relational and document based
+                databases.
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Please feel free to contact me anytime; I'm available for development projects and enjoy collaborating
+                with others.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ************** explore section end  -->
+    <!-- ************** footer section start  -->
+
+    <footer class="bg-dark" id="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h3>philpolo.io</h3>
+            <p>Copyright &copy;<span id="year"></span></p>
+            <button class="btn btn-outline-primary" data-toggle="modal" data-target="#contactModal">Register 4
+              Updates</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ************** footer section end  -->
+    <!-- ************** contact modal  -->
+
+    <div class="modal fade text-dark" id="contactModal">
+      <div class="modal-dialog">
+        <div class="modal-content rounded border-secondary">
+          <div class="modal-header">
+            <div id="message"></div>
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="form_wrapper">
+            <div class="form_container">
+              <div class="title_container">
+                <h2>Registration Form</h2>
+              </div>
+              <div class="row clearfix">
+                <div class="">
+                  <form onSubmit="return checkPassword(this)">
+                    <div class=" input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+                      <input type="email" name="email" placeholder="Email" required />
+                    </div>
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                      <input id='pass' type="password" name="password" placeholder="Password" required />
+                    </div>
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                      <input id='passConfirm' type="password" name="password" placeholder="Re-type Password" required />
+                    </div>
+                    <div class="row clearfix">
+                      <div class="col_half">
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                          <input type="text" name="name" placeholder="First Name" required />
+                        </div>
+                      </div>
+                      <div class="col_half">
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                          <input type="text" name="name" placeholder="Last Name" required />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="select_arrow"></div>
+                </div>
+                <div class="input_field checkbox_option">
+                  <input type="checkbox" id="cb1" required>
+                  <label for="cb1">I agree with terms and conditions</label>
+                </div>
+                <input class="button" type="submit" value="Register" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+            <button class="btn btn-secondary btn-block">Submit</button>
+          </div> -->
+      </div>
+    </div>
+    </div>
+    <script>
+      function checkPassword(form) {
+        var password = document.querySelector("#pass").value;
+        var passConfirm = document.querySelector("#passConfirm").value;
+
+        if (password == '')
+          alert("Please enter Password");
+
+        // If confirm password not entered
+        else if (password == '')
+          alert("Please enter confirm password");
+
+        // If Not same return False.    
+        else if (password != passConfirm) {
+          alert("\nPassword did not match: Please try again...")
+          return false;
+        }
+
+        // If same return True.
+        else {
+          alert("Password Match: Welcome!")
+          return true;
+        }
+        console.log(pass, passConfirm);
+      }
+    </script>
+
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <script>
+      $("#year").text(new Date().getFullYear());
+
+      // init scrollspy
+
+      $('body').scrollspy({ target: '#main-nav' })
+
+      // Add smooth scrolling
+      $('#main-nav a').on('click', function (e) {
+        // Check for a hash value
+        if (this.hash !== '') {
+          // Prevent default behavior
+          e.preventDefault();
+
+          // Store hash
+          const hash = this.hash;
+
+          // Animate smooth scroll
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+            // Add hash to URL after scroll
+            window.location.hash = hash;
+          });
+        }
+      });
+
+
+    </script>
+  </body>
+
+</html>
